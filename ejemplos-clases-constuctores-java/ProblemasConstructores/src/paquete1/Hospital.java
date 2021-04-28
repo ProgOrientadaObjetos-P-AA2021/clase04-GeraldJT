@@ -32,6 +32,14 @@ public class Hospital {
         numeroDoctores = 100;
         numeroEnfermeros = 200;
     }
+    /*public String toString(){  
+        String cadenaF = "";
+        cadenaF = String.format("%sNombre: %s\nCiudad: %s\nNumero de Doctores:"
+                + "%d\nNumero de enfermeros: %d", cadenaF, nombre, ciudad,
+                numeroDoctores, numeroEnfermeros);
+        return cadenaF;
+    }
+    */ 
     /*public String toString (){
         String cadenaF = "";
         nombre = "Isidro Ayora";
