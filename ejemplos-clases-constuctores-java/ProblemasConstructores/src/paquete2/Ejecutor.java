@@ -30,6 +30,7 @@ public class Ejecutor {
             System.out.printf("Nombre: %s\nCiudad: %s\nNumero de Doctores:"
                 + "%d\nNumero de enfermeros: %d\n", h1.obtenerNombre(),h1.obtenerCiudad()
                 , h1.obtenerNumeroDoctores(),h1.obtenerNumeroEnfermeros());
+            //System.out.printf("%s",h1);
         /*Crear un objeto y presentar los datos
         Ingresar la información por teclado.
         */
