@@ -26,7 +26,13 @@ public class Hospital {
     
     
     */
-    public String toString (){
+    public Hospital (){
+        nombre = "Isidro Ayora";
+        ciudad = "Loja";
+        numeroDoctores = 100;
+        numeroEnfermeros = 200;
+    }
+    /*public String toString (){
         String cadenaF = "";
         nombre = "Isidro Ayora";
         ciudad = "Loja";
@@ -37,7 +43,7 @@ public class Hospital {
                 numeroDoctores, numeroEnfermeros);
         return cadenaF;
     }   
-    
+    */
 
     public void establecerNombre(String n){
         nombre = n;
